@@ -472,7 +472,7 @@ h2.descript {
 }
 
 #search input[type="text"] {
-  background: url("../images/search-dark.png") no-repeat 10px 6px #444;
+  background: url("../images/search_dark.png") no-repeat 10px 6px #444;
   border: 0 none;
   border-radius: 20px;
   -ms-border-radius: 20px;
