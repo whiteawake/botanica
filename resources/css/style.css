@@ -1,0 +1,127 @@
+@import url("http://fonts.googleapis.com/css?family=Amarante|Open+Sans|Open+Sans+Condensed:300");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: url("../images/plant_background.jpg") no-repeat center center fixed;
+  background-size: cover;
+  -ms-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  font-family: 'open sans', helvetica, arial, sans;
+}
+
+img.tree {
+  margin-bottom: -41px; 
+  padding-right: 10px;
+}
+
+.log-form {
+  background: #fff;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+  left: 50%;
+  max-width: 475px;
+  min-width: 320px;
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  width: 40%;
+}
+
+.log-form form {
+  display: block;
+  padding: 2em;
+  width: 100%;
+}
+
+.log-form .btn {
+  background: #1fb5bf;
+  border: 1px solid #1ba0a9;
+  box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.19999999999999996);
+  color: white;
+  display: inline-block;
+  margin-right: .5em;
+  padding: .5em 2em;
+}
+
+.log-form .btn:hover {
+  background: #23cad5;
+}
+
+.log-form .btn:active {
+  background: #1fb5bf;
+  box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.09999999999999998);
+}
+
+.log-form .btn:focus {
+  outline: none;
+}
+
+.log-form .forgot {
+  color: #33d3de;
+  float: right;
+  font-size: .75em;
+  line-height: .5em;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: 2.5em;
+  text-decoration: none;
+}
+
+.log-form .forgot:hover {
+  color: #1ba0a9;
+}
+
+.log-form h2 {
+  background: #2a2a2a;
+  border: 1px solid #1d1d1d;
+  box-shadow: inset 0px 1px 1px rgba(255, 255, 255, 0.050000000000000044);
+  color: #1fb5bf;
+  display: block;
+  font-family: 'Amarante', cursive;
+  font-size: 1.35em;
+  font-weight: 200;
+  margin: 0;
+  padding: .75em 1em .75em 1.5em;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.log-form input {
+  border: none;
+  border-bottom: 1px solid #eaeaea;
+  display: block;
+  color: #757575;
+  margin: auto auto;
+  margin-bottom: 2em;
+  padding: .5em 0;
+  padding-bottom: 1.25em;
+  width: 100%;
+}
+
+.log-form input:focus {
+  outline: none;
+}
+
+@media (max-width: 40em) {
+  .log-form {
+    left: 0%;
+    margin: 2.5% auto 0 auto;
+    position: relative;
+    transform: translate(0%, 0%);
+    -ms-transform: translate(0%, 0%);
+    -moz-transform: translate(0%, 0%);
+    -webkit-transform: translate(0%, 0%);
+    -o-transform: translate(0%, 0%);
+    width: 95%;
+  }
+}
