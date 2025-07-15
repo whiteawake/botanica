@@ -92,7 +92,8 @@
                     safeGuard.stopAnimation(); 
                 }
 			});
-        } else { 
+        } 
+        else { 
             return this.each(function() {
                 (new $.circulate(this, options));
             });
